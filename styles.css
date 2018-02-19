@@ -13,6 +13,15 @@ body {
   clear: both;
 }
 
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
 .nav-bar {
   background-color: #c12127;
   color: rgba(255, 255, 255, 0.8);
@@ -49,6 +58,8 @@ body {
 .header {
   background: rgb(32, 101, 136);
   color: white;
+  background-image: url('images/city-scape.svg');
+  padding-bottom: 30px;
 }
 
 .logo-search {
@@ -95,4 +106,30 @@ body {
 
 .logo-search img {
   width: 20%;
+}
+
+.header-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header-text-block {
+  display: inline-block;
+  width: 60%;
+}
+
+.header-text h1 {
+  font-weight: normal;
+}
+
+.header-text p {
+  margin: 20px 0;
+}
+
+.header-text .btn {
+  background: rgb(240, 146, 51);
+}
+
+.header-text img {
+  float: right;
 }
