@@ -17,6 +17,7 @@ body {
   background-color: #c12127;
   color: rgba(255, 255, 255, 0.8);
   padding: 15px 0;
+  font-size: 14px;
 }
 
 .nav-bar a {
@@ -43,4 +44,55 @@ body {
 .top-links li {
   display: inline-block;
   margin: 0 10px;
+}
+
+.header {
+  background: rgb(32, 101, 136);
+  color: white;
+}
+
+.logo-search {
+  padding: 15px;
+}
+
+.logo-search .npm-logo {
+  float: left;
+  width: 8%;
+}
+
+.logo-search form {
+  float: left;
+  margin: 0 1%;
+  width: 78%;
+}
+
+.logo-search input {
+  padding: 10px;
+  width: 92%;
+}
+
+.logo-search button {
+  padding: 10px;
+  margin-left: -5px;
+}
+
+.logo-search input,
+.logo-search button {
+  background: rgb(31, 82, 111);
+  border: 1px solid #888;
+  color: white;
+}
+
+.logo-search p {
+  float: left;
+  width: 12%;
+}
+
+.logo-search a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-search img {
+  width: 20%;
 }
