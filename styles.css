@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i');
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .container {
@@ -162,11 +162,12 @@ h1, h2, h3, h4, h5, h6 {
 #collaboration .btn {
   background: rgb(203, 56, 55);
   margin-bottom: 0px;
+  font-weight: 300;
 }
 
 #collaboration a {
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -190,4 +191,35 @@ h1, h2, h3, h4, h5, h6 {
 
 #install .btn {
   background: rgb(49, 68, 88);
+}
+
+#features {
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(135, 145, 156);
+}
+
+.features-header {
+  margin-bottom: 30px;
+}
+
+.features-header h2,
+.features-box h3 {
+  color: rgb(83, 88, 98);
+}
+
+.features-box {
+  width: 33%;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;  
+}
+
+.features-box h3 {
+  font-weight: 600;
+}
+
+.features-box a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
 }
