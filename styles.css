@@ -72,50 +72,58 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 30px;
 }
 
-.logo-search {
+.header-logo-search {
   padding: 15px;
 }
 
-.logo-search .npm-logo {
+.header-logo-search .npm-logo {
   float: left;
   width: 8%;
 }
 
-.logo-search form {
+.header-logo-search form {
   float: left;
   margin: 0 1%;
-  width: 78%;
+  width: 76%;
 }
 
-.logo-search input {
+.header-logo-search input {
   padding: 10px;
   width: 92%;
-}
-
-.logo-search button {
-  padding: 10px;
-  margin-left: -5px;
-}
-
-.logo-search input,
-.logo-search button {
-  background: rgb(31, 82, 111);
-  border: 1px solid #888;
   color: white;
 }
 
-.logo-search p {
-  float: left;
-  width: 12%;
+.header-logo-search button {
+  padding: 10px;
+  margin-left: -5px;
+  color: #ccc;
 }
 
-.logo-search a {
+.header-logo-search input,
+.header-logo-search button {
+  background: rgb(31, 82, 111);
+  border: 1px solid #888;
+}
+
+.header-login {
+  float: left;
+  width: 14%;
+}
+
+.header-login p {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+
+.header-login a {
   color: white;
   text-decoration: none;
 }
 
-.logo-search img {
+.header-login img {
   width: 20%;
+  vertical-align: middle;
 }
 
 .header-text-block {
